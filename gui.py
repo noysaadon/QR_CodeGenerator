@@ -6,6 +6,9 @@ import png
 
 root = Tk()
 
+root.title('QR Code Generator')
+
+
 def genereate():
     link_name= name_entry.get()
     link= link_entry.get()
